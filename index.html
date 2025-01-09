@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Criyeak</title>
+
+   <!-- <link rel="stylesheet" type="text/css" href="loader.css" /> -->
+    <link rel="stylesheet" type="text/css" href="styles/vars.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/animation.css" />
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=
+      "https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,100..800;1,300..800&family=Heebo:wght@100..900&family=Questrial&display=swap" 
+      rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js" integrity="sha512-G1R66RZMhyLDEcAu92/Kv4sWNypnEiJcM6yhe0PNyiYDaMAKpMrJ6ZLR67xC/RMNGRa8Pm9TxtO8a98F6Ct+Gw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <script src="https://kit.fontawesome.com/c404a4ef48.js" crossorigin="anonymous"></script>
+  
+  </head>
+
+  <body>
+    <!--LOADER 1
+    <div class="loader" id="loader">
+        <div class="loadersillo">
+            <iframe src="logo.html" frameborder="0" scrolling="no"></iframe>
+            <svg class="sombra_cero" xmlns="http://www.w3.org/2000/svg"viewBox="-200 -30 900 900">><g id="Capa_2" data-name="Capa 2"><g id="Capa_6" data-name="Capa 6"><path/></g></g></svg>
+            <svg class="sombra_uno" xmlns="http://www.w3.org/2000/svg"viewBox="-150 -50 900 900">><g id="Capa_2" data-name="Capa 2"><g id="Capa_6" data-name="Capa 6"><path/></g></g></svg>
+            <svg class="sombra_dos" xmlns="http://www.w3.org/2000/svg"viewBox="-150 -50 900 900">><g id="Capa_2" data-name="Capa 2"><g id="Capa_6" data-name="Capa 6"><path/></g></g></svg>
+          </div>
+    </div>
+  -->
+
+  <!--LOADER 2-->
+  <div class="container-loader">
+    <div class="loader-criyeak"></div>
+  </div>
+  
+    
+    <!--BARRA DE NAVEGACION-->
+
+    <header>
+      <div class="header-padre">
+        <div class="header-hijo1">
+          <a href="#inicio-slider" class="nav-boton">Inicio</a>
+          <a href="#productos" class="nav-boton">Productos</a>
+          <a href="#acerca" class="nav-boton">Acerca de</a>
+          <a href="#contacto" class="nav-boton">Contacto</a>
+        </div>
+
+        <div class="header-hijo2">
+          <div class="search-bar">
+            <input
+              class="barra-texto"
+              type="search"
+              placeholder="Buscar..."
+            />
+            <button class="lupa">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="box-search"></div>
+          <button class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+      </div>
+      <div class="menu-options"></div>
+    </header>
+
+    <div class="cover"></div>
+
+    <template id="list">
+      <button><span>sugerencia</span></button>
+    </template>
+
+    <!--CARRUSEL DE IMAGENES-->
+    <div class="contenedor_slider" id="inicio-slider">
+      <div class="gallery">
+        <div class="slider">
+          <section>
+            <img src="img/pexels-eddie-galaxy-3628100.webp" />
+          </section>
+          <section>
+            <img src="img/pexels-goochie-poochie-grooming-3299905.webp" />
+          </section>
+          <section>
+            <img src="img/pexels-kampus-production-8734467.webp" />
+          </section>
+          <section>
+            <img src="img/pexels-lorraine-steriopol-794083.webp" />
+          </section>
+          <section>
+            <img src="img/pexels-los-muertos-crew-6836415.webp" />
+          </section>
+          <section>
+            <img src="img/pexels-mitchell-henderson-2004393.webp" />
+          </section>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cover"></div>
+
+    
+    <div class="productos-inicio" id="productos">
+      <div class="productos-title">
+          <h1>PRODUCTOS</h1>
+      </div>
+
+      
+      <div class="barrasearch2">
+        <div class="search-bar bar2">
+          <input
+            class="barra-texto"
+            type="search"
+            placeholder="Buscar..."
+          />
+          <button class="lupa">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="box-search box2"></div>
+      </div>
+    </div>
+    <!--CONTENEDOR Y CARDS DE PRODUCTOS-->
+    <div class="contenedor-productos"> </div>
+    <template id="product-card">
+        <div class="producto-card">
+            <div class="img-card">
+                <img class="img"/>
+            </div>
+            <div class="datos-card">
+                <h4>Titulo</h4>
+                <h6>$<span>00000</span></h6>
+                <div class="btn-compra">
+                    <button class="btn-card" type="button">
+                      Añadir
+                      &nbsp;<i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+            </div>
+            <template class="color-product"></template>
+            <template class="talla-product"></template>
+            <template class="item"></template>
+            <template class="descripcion"></template>
+            <template class="img"></template>
+        </div> 
+    </template>
+
+<!--PREVISUALIZACION DE LOS PRODUCTOS-->
+    <div class="preview"></div>
+    <div class="adver-add-product">
+        <h6>¡añadido al carrito!</h6>
+    </div>
+    <template id="preview-product">
+        <div class="contenedor0">
+          <div class="contenedor1">
+              <div class="container-slider">
+                  <div class="slider-preview">
+                    <section>
+                      <img class="img-slider"/> 
+                      <img class="img-slider"/> 
+                      <img class="img-slider"/> 
+                    </section>
+                    <section>
+                      <img class="img-slider"/> 
+                    </section>
+                    <section>
+                      <img class="img-slider"/> 
+                    </section>
+                  </div>
+                  <div class="slider-btn slider-btn-right"></div>
+                  <div class="slider-btn slider-btn-left"></div>
+              </div>
+          </div>
+          <div class="contenedor2">
+              <div class="titulo-producto">
+                <h2><span>0000</span></h2>
+                <h3>&nbsp;-&nbsp;</h3>
+                <h2>- PRODUCTO</h2>
+              </div>
+              <p>descripcion</p>
+              <h3>$<span>00000</span></h3>
+              <div class="tallas">
+                <button class="talla" type="button">S</button>
+                <button class="talla" type="button">M</button>
+                <button class="talla" type="button">L</button>
+                <button class="talla" type="button">XL</button>
+              </div>
+              <div class="colores"></div>
+              <div class="botones">
+                <button class="añadir" type="button">Añadir al Carrito</button>
+                <button class="comprar" type="button">comprar</button>
+              </div>
+          </div>
+        </div>
+    </template>
+
+    <!--ICONO DEL CARRITO-->
+    <div class="iconos">
+      <button class="icono" type="button">
+        <div class="contador"><span>0</span></div>
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+  
+      <button class="icono" type="button">
+          <i class="fas fa-moon"></i>
+      </button>
+    </div>
+
+<!--PREVISUALIZACION DE LOS PRODUCTOS EN EL CARRITO-->
+    <div class="preview2">
+        <div class="contenedor0-carrito">
+            <div class="compras">
+                <h1>Tus compras</h1> 
+                <h2>0</h2>
+            </div>
+            <div class="productos-carrito"><hr></div>
+              <div class="compras-footer">
+                  <h4>Total: <span>000000</span></h4>
+                  <div class="compras-btns-footer">
+                    <button>Vaciar</button>
+                    <button>comprar</button>
+                  </div>
+              </div>
+          </div>
+    </div>
+
+<!--PRODUCTO DENTRO DEL CARRITO-->
+    <template id="product-car">
+      <div class="producto-item">
+         <button class="pi">
+              <i class='fas fa-tshirt'></i>
+          </button>
+          <div class="pi">
+              <h5><span>0000</span></h5>
+               &nbsp;-&nbsp;
+              <h5>Producto producto</h5>
+          </div>
+          <div class="pi">
+              <h5>Talla</h5>
+              <h5>L</h5>
+          </div>
+          <div class="pi">
+            <div class="acciones">
+                <button class="btn-restar">-</button>
+                <div class="product-cantidad"><h5>00</h5></div>
+                <button class="btn-sumar">+</button>
+            </div>
+          </div>
+          <div class="pi">
+              <h4>Precio:  <span>$00000</span></h4>
+          </div>
+      </div>
+   </template>
+
+    <div class="acerca" id="acerca">
+      <div class="acerca-title">
+          <h1>ACERCA DE Criyeak</h1>
+      </div>
+    </div>
+
+    <div class="quienes">
+      <div class="q-contenedor0">
+        <h1>¿Quienes somos?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid ducimus sint, magnam ipsa molestiae! Provident dolore minima aliquam molestias, aspernatur impedit, ipsam animi voluptatum, pariatur explicabo necessitatibus nam. Nostrum!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid ducimus sint, magnam ipsa molestiae! Provident dolore minima aliquam molestias, aspernatur impedit, ipsam animi voluptatum, pariatur explicabo necessitatibus nam. Nostrum.</p>
+    </div>
+      <div class="q-contenedor1">
+        <img src="https://images.pexels.com/photos/1587510/pexels-photo-1587510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+      </div>
+    </div>
+
+    <div class="quienes">
+        <div class="q-contenedor1">
+            <img src="https://images.pexels.com/photos/3966277/pexels-photo-3966277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+      <div class="q-contenedor0">
+          <h1>¿Que ofrecemos?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid ducimus sint, magnam ipsa molestiae! Provident dolore minima aliquam molestias, aspernatur impedit, ipsam animi voluptatum, pariatur explicabo necessitatibus nam. Nostrum!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid ducimus sint, magnam ipsa molestiae! Provident dolore minima aliquam molestias, aspernatur impedit, ipsam animi voluptatum, pariatur explicabo necessitatibus nam. Nostrum.</p>
+      </div>
+    </div>
+<!-- 
+      <div class="quienes">
+        <div class="q-contenedor0">
+            <h1>Origen del logo</h1>
+            <p>El imagotipo como representación gráfica de la marca está formado por una imagen característica de un ojo y por la construcción tipográfica de los caracteres que componen la palabra “CRIYEAK”.</p>
+            <br>
+            <p>El ojo representa la actividad visual de la empresa a la hora de explorar diversos campos de interés que se torne llamativo hacia el público objetivo con el propósito de proyectar de forma eficiente las ideas gráficas.</p>
+            <br>
+            <p>“CRIYEAK” como composición tipográfica tiene un concepto mucho más interno, pues su origen se basa en un conjunto de palabras aleatorias que describen en el ámbito personal a los fundadores, organizadas también de forma aleatoria dieron como resultado dicha palabra, asumiendo el reto de darnos a conocer con una palabra relativamente nueva se pretende posicionarse como una empresa de estampado textil innovadora partiendo desde su nombre. </p>
+          </div>
+        <div class="q-contenedor1">
+            <img src="img/logo-criyeak-web.png" alt="">
+        </div>
+     </div> -->
+     
+     <footer id="contacto">
+       <div class="redes">
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+       </div>
+       <div id="map"></div>
+    </footer>
+
+    <!--SCRIPTS-->
+     <script src="js/load.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaKVl4nzuKQaJ9S21w5VlR5yYFzX_QGL8&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>

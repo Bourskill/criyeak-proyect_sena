@@ -1,0 +1,142 @@
+[
+  {
+    "item": 3250,
+    "precio": 50000,
+    "id": 1,
+    "title": "Blazetoothx",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (1).png",
+    "thumbnailUrl2 ": "./img/productos/pokemon (1).png",
+    "alt": {
+      "alt1": "estrella",
+      "alt2": "estrellas",
+      "alt3": "espacio"
+    }
+  },
+  {
+    "item": 9319,
+    "precio": 30000,
+    "id": 2,
+    "title": "Bouldermont",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (2).png",
+    "thumbnailUrl2": "./img/productos/pokemon (2).png",
+    "alt": {
+      "alt1": "oso",
+      "alt2": "osos",
+      "alt3": "espacio"
+    }
+  },
+  {
+    "item": 7320,
+    "precio": 100000,
+    "id": 3,
+    "title": "Undead Reve",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (3).png",
+    "thumbnailUrl2": "./img/productos/pokemon (3).png",
+    "alt": {
+      "alt1": "montaña",
+      "alt2": "cielo",
+      "alt3": "cielos"
+    }
+  },
+  {
+    "item": 9354,
+    "precio": 50000,
+    "id": 4,
+    "title": "Jagged Babx",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (4).png",
+    "thumbnailUrl2": "./img/productos/pokemon (4).png",
+    "alt": {
+      "alt1": "tierra",
+      "alt2": "estrellas",
+      "alt3": "espacio"
+    }
+  },
+  {
+    "item": 7100,
+    "precio": 10000,
+    "id": 5,
+    "title": "Cavernfreak",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (5).png",
+    "thumbnailUrl2": "./img/productos/pokemon (5).png",
+    "alt": {
+      "alt1": "montañas",
+      "alt2": "montaña",
+      "alt3": "cielo"
+    }
+  },
+  {
+    "item": 9346,
+    "precio": 15000,
+    "id": 6,
+    "title": "Muted Muttx",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (6).png",
+    "thumbnailUrl2": "./img/productos/pokemon (6).png",
+    "alt": {
+      "alt1": "cielos",
+      "alt2": "montaña",
+      "alt3": "estrella"
+    }
+  },
+  {
+    "item": 2310,
+    "precio": 17000,
+    "id": 7,
+    "title": "Decayfigure",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (7).png",
+    "thumbnailUrl2": "./img/productos/pokemon (7).png",
+    "alt": {
+      "alt1": "estrella",
+      "alt2": "estrellas",
+      "alt3": "espacio"
+    }
+  },
+  {
+    "item": 8300,
+    "precio": 85000,
+    "id": 8,
+    "title": "Grimehoundx",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (8).png",
+    "thumbnailUrl2": "./img/productos/pokemon (8).png",
+    "alt": {
+      "alt1": "espacio",
+      "alt2": "montañas",
+      "alt3": "tierra"
+    }
+  },
+  {
+    "item": 9360,
+    "precio": 190000,
+    "id": 9,
+    "title": "Venomhandxz",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (9).png",
+    "thumbnailUrl2": "./img/productos/pokemon (9).png",
+    "alt": {
+      "alt1": "estrella",
+      "alt2": "estrellas",
+      "alt3": "espacio"
+    }
+  },
+  {
+    "item": 9305,
+    "precio": 15000,
+    "id": 10,
+    "title": "Crazy Entit",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit voluptas.consectetur adipisicing elit. Culpa reprehenderit voluptas.",
+    "thumbnailUrl1": "./img/productos/pokemon (10).png",
+    "thumbnailUrl2": "./img/productos/pokemon (10).png",
+    "alt": {
+      "alt1": "espacio",
+      "alt2": "cielo",
+      "alt3": "cielos"
+    }
+  }
+]
