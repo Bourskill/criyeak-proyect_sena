@@ -552,13 +552,13 @@ const pintarPreviewProduct = (product) => {
     .querySelectorAll(".img-slider")[0]
     .setAttribute(
       "src",
-      "../img/mockup/camisa1.png"
+      "./img/mockup/camisa1.png"
     );
   previewProduct
     .querySelectorAll(".img-slider")[1]
     .setAttribute(
       "src",
-      "../img/mockup/camisa2.png"
+      "./img/mockup/camisa2.png"
     );
   previewProduct
     .querySelectorAll(".img-slider")[2]
